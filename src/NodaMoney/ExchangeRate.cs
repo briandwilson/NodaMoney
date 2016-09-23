@@ -7,7 +7,7 @@ namespace NodaMoney
     /// <summary>A conversion of money of one currency into money of another currency</summary>
     /// <remarks>See http://en.wikipedia.org/wiki/Exchange_rate .</remarks>
     [DataContract]
-    public struct ExchangeRate : IEquatable<ExchangeRate>
+    public partial struct ExchangeRate : IEquatable<ExchangeRate>
     {
         /// <summary>Initializes a new instance of the <see cref="ExchangeRate"/> struct.</summary>
         /// <param name="baseCurrency">The base currency.</param>
